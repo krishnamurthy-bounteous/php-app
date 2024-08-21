@@ -1,0 +1,58 @@
+# Composer files
+/vendor/
+
+# Node.js dependencies
+/node_modules/
+
+# PHPStorm or IntelliJ IDEA project files
+.idea/
+
+# Laravel specific
+/.env
+/public/storage
+/storage/*.key
+/storage/*.log
+/vendor/
+/node_modules/
+
+# Symfony specific
+/.env
+/.env.local
+/.env.*.local
+/var/
+/vendor/
+/public/bundles/
+
+# Zend Framework specific
+/application/configs/application.ini
+
+# PHPUnit
+/phpunit.xml
+/phpunit.xml.dist
+
+# Ignored files for common IDEs
+*.sublime-project
+*.sublime-workspace
+*.vscode/
+*.project
+*.classpath
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*.swp
+
+# Temp files
+*.tmp
+*.temp
+
+# Git attributes
+*.gitattributes
