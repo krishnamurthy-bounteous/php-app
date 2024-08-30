@@ -1,0 +1,49 @@
+/* styles.css */
+
+/* Set the body background color */
+body {
+    background-color: #f8f9fa;
+}
+
+/* Add some padding and center the title */
+h1 {
+    font-size: 2.5rem;
+    background: -webkit-linear-gradient(45deg,#dd1f1f, #1e08e6);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #343a40;
+}
+
+/* Style the card to add shadow and rounded corners */
+.card {
+    border: none;
+    border-radius: 8px;
+}
+
+/* Style the task list items */
+.list-group-item {
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style the delete button */
+.deleteBtn {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.deleteBtn:hover {
+    background-color: #c82333;
+}

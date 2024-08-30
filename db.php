@@ -2,13 +2,13 @@
 $servername = "db";
 $username = "myuser";
 $password = "mypassword";
-$dbname = "mydatabase";
+$dbname = "todo";
 
 // Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
+$pdo = new mysqli($servername, $username, $password, $dbname);
 
 // Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+if ($pdo->connect_error) {
+    die("Connection failed: " . $pdo->connect_error);
 }
 ?>
